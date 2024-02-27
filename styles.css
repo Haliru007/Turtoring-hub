@@ -1,0 +1,267 @@
+body {
+  margin: 0;
+  padding: 0;
+ 
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+h1, h2, h3, p, ul, li{
+  margin: 0;
+  padding: 0; 
+  
+}
+
+h1, h2, h3{
+  text-align: center;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 20px;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+#logo img {
+  width: 200px; /* Adjust the size as needed */
+  height: 120px;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  margin: 0 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* Hero Section Styles */
+.hero-section {
+  background-image: url('./image/hero.png.jpg'); /* Replace with your actual image URL */
+  background-size: cover;
+  background-position: center;
+  color: #000;
+  font-size: larger;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-section h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  text-decoration: none;
+  background-color: #ff6600;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background-color: #e65a00;
+}
+.services-section {
+  padding: 50px 20px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-gap: 20px;
+}
+
+.service {
+  background-color: #46723c;
+  padding: 100px;
+  border-radius: 5px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.service:hover {
+  transform: scale(1.05);
+}
+
+.service h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+/* Tutors Section Styles */
+.tutors-section {
+  padding: 50px 20px;
+}
+
+.tutors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-gap: 20px;
+}
+
+.tutor {
+  background-color: #46723c;
+  padding: 100px;
+  border-radius: 5px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.tutor:hover {
+  transform: scale(1.05);
+}
+
+.tutor h3 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.tutor p {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.star {
+  font-size: 1.5em;
+  color: #ffd700; /* Gold color for stars */
+}
+
+
+/* Contact Section Styles */
+#contact {
+  padding: 50px 20px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #e65a00;
+}
+
+.signup-section {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+select,
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #e65a00;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px 20px;
+  overflow: hidden;
+}
+#small-container{
+  max-width: 800;
+  display: flex;
+  justify-content: space-around;
+}
+.container{
+  width: 95vw;
+}
+
+ 
+
+ 

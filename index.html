@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutoring Hub</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to your custom stylesheet -->
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+   
+    <nav>
+      <a href="#" id="logo"><img src="./image/png/logo-black.png" alt="Tutoring Hub Logo"></a>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#tutors">Tutors</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <h1>Welcome to Tutoring Hub</h1>
+    <p>Unlock your potential with our expert tutors. Personalized learning tailored just for you.</p>
+    <a href="#tutors" class="cta-button">Find a Tutor</a>
+  </section>
+
+  <section id="services" class="services-section">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <div class="service">
+        <h3>One-on-One Tutoring</h3>
+        <p>Personalized tutoring sessions with experienced tutors.</p>
+      </div>
+      <div class="service">
+        <h3>Group Classes</h3>
+        <p>Engage in collaborative learning with our group classes.</p>
+      </div>
+      <div class="service">
+        <h3>Exam Preparation</h3>
+        <p>Get ready for exams with our comprehensive preparation courses.</p>
+      </div>
+    </div>
+  </section>
+  <section id="tutors" class="tutors-section">
+    <h2>Our Tutors</h2>
+    <div class="tutors-grid">
+      <div class="tutor">
+        <h3>John Doe</h3>
+        <p>Mathematics Tutor</p>
+        <div class="rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9734;</span>
+          <span class="star">&#9734;</span>
+        </div>
+        <button onclick="showRatingForm('John Doe')">Rate Tutor</button>
+      </div>
+      <div class="tutor">
+        <h3>Jane Smith</h3>
+        <p>English Tutor</p>
+        <div class="rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9734;</span>
+        </div>
+        <button onclick="showRatingForm('Jane Smith')">Rate Tutor</button>
+      </div>
+
+      <div class="tutor">
+        <h3>Jane Smith</h3>
+        <p>Science Tutor</p>
+        <div class="rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9734;</span>
+        </div>
+        <button onclick="showRatingForm('Jane Smith')">Rate Tutor</button>
+      </div>
+
+ <div class="container">
+  <div id="small-container">
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions or ready to get started? Reach out to us!</p>
+    <form>
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+<section>
+  <section id="signup" class="signup-section">
+    <h2>Sign Up</h2>
+    <form action="process_signup.php" method="post">
+      <label for="role">Choose your role:</label>
+      <select id="role" name="role" required>
+        <option value="student">Student</option>
+        <option value="tutor">Tutor</option>
+      </select>
+
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Choose Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <label for="confirm-password">Confirm Password:</label>
+      <input type="password" id="confirm-password" name="confirm-password" required>
+
+      <button type="submit">Sign Up</button>
+    </form>
+  </section>
+</div>
+  <footer>
+    <p>&copy; 2024 Tutoring Hub. All rights reserved.</p>
+  </footer></section>
+</div>
+  <script>
+    function showRatingForm(tutorName) {
+      document.getElementById('tutor-name').value = tutorName;
+      document.getElementById('rating-form').classList.remove('hidden');
+    }
+  </script>
+
+</body>
+</html>
+
+
